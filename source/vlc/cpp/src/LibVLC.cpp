@@ -39,7 +39,7 @@ LibVLC::LibVLC(void)
 	
 	int Argc = sizeof(Args) / sizeof(*Args);
 	// libVlcInstance = libvlc_new(Argc, Args);
-	libVlcInstance = libvlc_new(0, NULL);
+	libVlcInstance = libvlc_new(Argc, Argv);
 	
 }
 
